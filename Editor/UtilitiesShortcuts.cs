@@ -108,7 +108,7 @@ public static class UtilitiesShortcuts
 		}
 	}
 
-	public delegate void ApplyOrRevertDelegate(GameObject inInstance, Object inPrefab, ReplacePrefabOptions inReplaceOptions);
+	public delegate void ApplyOrRevertDelegate(GameObject inInstance, UnityEngine.Object inPrefab, ReplacePrefabOptions inReplaceOptions);
 
 	[MenuItem("Utilities/Shortcuts/Apply all selected prefabs %#e")] // CTRL/CMD + SHIFT + E
 	static void ApplyPrefabs()
